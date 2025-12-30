@@ -1,0 +1,92 @@
+.
+├── backend
+│   ├── node_modules
+│   ├── config
+│   │   ├── db.js
+│   │   └── multer.js
+│   ├── controllers
+│   │   ├── aiController.js
+│   │   ├── authController.js
+│   │   ├── documentController.js
+│   │   ├── flashcardController.js
+│   │   └── quizController.js
+│   ├── middleware
+│   │   ├── auth.js
+│   │   └── errorHandler.js
+│   ├── models
+│   │   ├── ChatHistory.js
+│   │   ├── Document.js
+│   │   ├── Flashcard.js
+│   │   ├── Quiz.js
+│   │   └── User.js
+│   ├── package.json
+│   ├── package-lock.json
+│   ├── routes
+│   │   ├── aiRoutes.js
+│   │   ├── authRoutes.js
+│   │   ├── documentRoutes.js
+│   │   ├── flashcardRoutes.js
+│   │   └── quizRoutes.js
+│   ├── server.js
+│   └── utils
+│       ├── geminiService.js
+│       ├── pdfParser.js
+│       └── textChunker.js
+├── frontend
+│   └── ai-learning-assistant
+│       ├── node_modules
+│       ├── eslint.config.js
+│       ├── index.html
+│       ├── package.json
+│       ├── package-lock.json
+│       ├── public
+│       │   └── vite.svg
+│       ├── README.md
+│       ├── src
+│       │   ├── App.jsx
+│       │   ├── assets
+│       │   │   └── react.svg
+│       │   ├── components
+│       │   │   ├── auth
+│       │   │   │   └── ProtectedRoute.jsx
+│       │   │   ├── common
+│       │   │   ├── documents
+│       │   │   ├── flashcards
+│       │   │   ├── layout
+│       │   │   │   └── AppLayout.jsx
+│       │   │   └── quizzes
+│       │   ├── context
+│       │   │   └── AuthContext.jsx
+│       │   ├── index.css
+│       │   ├── main.jsx
+│       │   ├── pages
+│       │   │   ├── Auth
+│       │   │   │   ├── LoginPage.jsx
+│       │   │   │   └── RegisterPage.jsx
+│       │   │   ├── Dashboard
+│       │   │   │   └── DashboardPage.jsx
+│       │   │   ├── Documents
+│       │   │   │   ├── DocumentDetailPage.jsx
+│       │   │   │   └── DocumentListPage.jsx
+│       │   │   ├── Flashcards
+│       │   │   │   ├── FlashcardPage.jsx
+│       │   │   │   └── FlashcardsListPage.jsx
+│       │   │   ├── NotFoundPage.jsx
+│       │   │   ├── Profile
+│       │   │   │   └── ProfilePage.jsx
+│       │   │   └── Quizzes
+│       │   │       ├── QuizResultPage.jsx
+│       │   │       └── QuizTakePage.jsx
+│       │   ├── services
+│       │   │   ├── aiService.js
+│       │   │   ├── authService.js
+│       │   │   ├── documentService.js
+│       │   │   ├── flashcardService.js
+│       │   │   └── quizService.js
+│       │   └── utils
+│       │       ├── apiPaths.js
+│       │       └── axiosinstance.js
+│       └── vite.config.js
+└── structure_limited.txt
+
+30 directories, 58 files
