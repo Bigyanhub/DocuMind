@@ -1,6 +1,6 @@
-# Cognify 🧠
+# DocuMind 🧠
 
-Cognify is a full-stack learning platform built with the MERN stack.  
+DocuMind is a full-stack learning platform built with the MERN stack.  
 It allows users to upload study documents and interact with them through summaries, flashcards, quizzes, and a document-focused chat system.
 
 ## Key Features
