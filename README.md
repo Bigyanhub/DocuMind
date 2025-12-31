@@ -1,7 +1,7 @@
 # Cognify 🧠
 
-Cognify is a full-stack AI-powered learning assistant built with the MERN stack.  
-It transforms study documents into interactive learning experiences using AI-generated summaries, flashcards, quizzes, and context-aware chat.
+Cognify is a full-stack learning platform built with the MERN stack.  
+It allows users to upload study documents and interact with them through summaries, flashcards, quizzes, and a document-focused chat system.
 
 ## Key Features
 
