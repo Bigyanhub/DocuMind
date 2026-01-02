@@ -25,3 +25,24 @@ const registerValidation = [
     .isLength({ min: 6 })
     .withMessage("Password must be at least 6 characters"),
 ];
+
+const loginValidation = [
+  body("email")
+    .isEmail()
+    .normalizeEmail()
+    .withMessage("Please provide a valid email"),
+  body("password")
+    .notEmpty()
+    .withMessage("Password is required")
+];
+
+//Public routes
+router.post("/register", registerValidation, register);
+router.post("/login", loginValidation, login);
+
+//Protected routes
+router.get("/profile", protect, getProfile);
+router.put("/profile", protect, updateProfile);
+router.post("/change-password", protect, changePassword);
+
+export default router;
